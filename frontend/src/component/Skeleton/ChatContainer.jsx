@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 import ChatHeader from "./ChatHeader";
 import MessageInput from "../MessageInput.jsx";
 import MessageSkeleton from "./MessageSkeleton.jsx";
-import { useAuthStore } from "../../store/useAuthstore.jsx";
+import { useAuthStore } from "../../store/useAuthStore.jsx";
 import { formatMessageTime } from "../../lib/axios";
 
 const ChatContainer = () => {
