@@ -10,7 +10,7 @@ import ProfilePage from './Pages/ProfilePage'
 import { useEffect } from 'react';
 import { Loader } from "lucide-react"
 import { Toaster } from 'react-hot-toast'
-import { useAuthStore } from './store/useAuthstore.jsx'
+import { useAuthStore } from './store/useAuthStore.jsx'
 import { useThemeStore } from "./store/useThemeStore.jsx";
 
 function App() {
