@@ -5,7 +5,7 @@ import Home from './Pages/Home'
 import Navbar from './component/Navbar'
 import Signup from './Pages/Signup'
 import Login from './Pages/Login'
-import SettingPage from './Pages/SettingPage'
+import SettingPage from './Pages/Settingpage.jsx'
 import ProfilePage from './Pages/ProfilePage'
 import { useEffect } from 'react';
 import { Loader } from "lucide-react"
